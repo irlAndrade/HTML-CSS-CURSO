@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(233, 251, 251);
+            background-color: #e9fbfb;
             margin: 0px;
         }
 
@@ -19,6 +19,7 @@
             margin: 10px;
             border: 10px solid rgb(42, 143, 198);
             color: white;
+            box-shadow: 0px 5px 50px #b9c6c6;
         }
 
         a {
@@ -28,6 +29,7 @@
 
         a:hover {
             color: rgb(255, 227, 175);
+            text-decoration: underline;
         }
 
         main {
@@ -41,6 +43,10 @@
             margin-left: 10px;
         }
 
+        article > aside#Domineco{
+            margin-bottom: 50px;
+        }
+
         footer {
             font-family: Georgia, 'Times New Roman', Times, serif;
             background-color: black;
@@ -50,6 +56,16 @@
             padding: 2.5px;
             margin: 0px;
         }
+
+        footer > p{
+            margin: 0px;
+            padding: 10px;
+        }
+
+        .ano {
+            font-size: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -71,14 +87,14 @@
         </section>
         <section>
             <article>
-                <h2>Porque o Brasil tem Inflação</h2>
+                <h2>Porque o Brasil tem Inflação?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sollicitudin metus. Nulla facilisi. Donec sed ultricies ligula, vel pulvinar ex. Vestibulum vel velit et ex viverra tincidunt. Sed vel velit non neque tristique bibendum.</p>
-                <aside>Escrito por Domineco e Nicolau</aside>
+                <aside id="Domineco">Escrito por Domineco e Nicolau</aside>
             </article>
         </section>
     </main>
     <footer>
-        <p>Desenvolvido por Andrade</p>
+        <p>&copy; Desenvolvido por Andrade <span class="ano">2024</span></p>
     </footer>
 </body>
 </html>
