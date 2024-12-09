@@ -29,6 +29,7 @@
 
 body {
     background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
 }
 
 header {
@@ -50,6 +51,24 @@ nav{
 
 main {
     background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 0px 15px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.426);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequeno {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main h1 {
